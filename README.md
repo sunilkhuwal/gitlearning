@@ -46,56 +46,14 @@ $ git commit -m "Adding new Files and Folder structure"
  create mode 100644 Src/Classes/sampleFile.cls
  create mode 100644 Src/Pages/SamplePage.txt
 
- $ git push
-warning: push.default is unset; its implicit value has changed in
-Git 2.0 from 'matching' to 'simple'. To squelch this message
-and maintain the traditional behavior, use:
-
-  git config --global push.default matching
-
-To squelch this message and adopt the new behavior now, use:
-
-  git config --global push.default simple
-
-When push.default is set to 'matching', git will push local branches
-to the remote branches that already exist with the same name.
-
-Since Git 2.0, Git defaults to the more conservative 'simple'
-behavior, which only pushes the current branch to the corresponding
-remote branch that 'git pull' uses to update the current branch.
-
-See 'git help config' and search for 'push.default' for further information.
-(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
-'current' instead of 'simple' if you sometimes use older versions of Git)
-
-Counting objects: 6, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (6/6), 474 bytes | 0 bytes/s, done.
-Total 6 (delta 0), reused 0 (delta 0)
-To https://github.com/sunilkhuwal/gitlearning.git
-   d71ebc0..fe10bd4  master -> master
-
-
-To add scripts with the extension .txt
+ 
+* ** To add scripts with the extension .txt**
 git add '*.txt'
 
 $ git log
 commit 28c36b0c233992d6a0d59550bd8fe62c3ccbf586
 Author: Sunil Kumar <sunil.kumar@metacube.com>
 Date:   Tue Feb 20 12:33:53 2018 +0530
-
-    updating readme file
-
-commit 12dea1e3f502bfb51614f3e488b7d4b678b35e0d
-Author: Sunil Kumar <sunil.kumar@metacube.com>
-Date:   Tue Feb 20 12:31:53 2018 +0530
-
-    updating readme file
-
-commit fe10bd41c844d029d86d12816ca69d80579c83b2
-Author: Sunil Kumar <sunil.kumar@metacube.com>
-Date:   Tue Feb 20 12:07:48 2018 +0530
 
     Adding new Files and Folder structure
 
@@ -105,39 +63,39 @@ Date:   Tue Feb 20 11:59:25 2018 +0530
 
     Initial commit
 
-**To track the remote branch **
+* **To track the remote branch **
 ```
 git remote add origin https://github.com/sunilkhuwal/gitlearning.git
 ```
 
-**To push the Content to remote master**
+* **To push the Content to remote master**
 ```
 git push -u origin master
 ```
-**To pull from origin master**
+* **To pull from origin master**
 git pull origin master
 
-**To view the diff of staged files **
+* **To view the diff of staged files **
 git diff --staged
 
-**To reset the staged files**
+* **To reset the staged files**
 git reset directory/filename.txt
 
-** To get rid of all the changes since the last commit for file **
+* ** To get rid of all the changes since the last commit for file **
 git checkout -- directory/filename.txt
 
-** To create a branch **
+* ** To create a branch **
 git branch branchName
 
-** To view all the branches**
+* ** To view all the branches**
 git branch
 
-**To switch to a branch**
+* **To switch to a branch**
 git checkout branchName
 
-**To merge the changes of branch1(to merge with current branch) to current branch**
+* **To merge the changes of branch1(to merge with current branch) to current branch**
 git merge branch1
 
-**To delete a branch**
+* **To delete a branch**
 git branch -d branchName
 
