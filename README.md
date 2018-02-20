@@ -1,15 +1,18 @@
 # gitlearning
 Learning the basics of GIT
 
+```
 $ git init
 Reinitialized existing Git repository in D:/Sunil_Kumar/GIT/gitlearning/.git/
+```
 
+```
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 nothing to commit, working directory clean
-
-Creating the folder structure in command prompt 
+```
+## Creating the folder structure in command prompt 
 Src
 	Classes
 		SampleFile.cls (file)
