@@ -19,6 +19,8 @@ Src
 	Pages
 		SamplePage (file)
 
+##Various commands used in git
+```
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -45,9 +47,9 @@ $ git commit -m "Adding new Files and Folder structure"
  2 files changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 Src/Classes/sampleFile.cls
  create mode 100644 Src/Pages/SamplePage.txt
-
+```
  
-* ** To add scripts with the extension .txt**
+* **To add scripts with the extension .txt**
 git add '*.txt'
 
 $ git log
@@ -63,7 +65,7 @@ Date:   Tue Feb 20 11:59:25 2018 +0530
 
     Initial commit
 
-* **To track the remote branch **
+* **To track the remote branch**
 ```
 git remote add origin https://github.com/sunilkhuwal/gitlearning.git
 ```
@@ -75,19 +77,19 @@ git push -u origin master
 * **To pull from origin master**
 git pull origin master
 
-* **To view the diff of staged files **
+* **To view the diff of staged files**
 git diff --staged
 
 * **To reset the staged files**
 git reset directory/filename.txt
 
-* ** To get rid of all the changes since the last commit for file **
+* **To get rid of all the changes since the last commit for file**
 git checkout -- directory/filename.txt
 
-* ** To create a branch **
+* **To create a branch**
 git branch branchName
 
-* ** To view all the branches**
+* **To view all the branches**
 git branch
 
 * **To switch to a branch**
