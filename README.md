@@ -116,3 +116,6 @@ Date:   Tue Feb 20 11:59:25 2018 +0530
 	 ```
 	 **To pull from origin master**
 	 git pull origin master
+	 
+	 **To view the diff of staged files **
+	 git diff --staged
