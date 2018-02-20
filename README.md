@@ -105,6 +105,14 @@ Date:   Tue Feb 20 11:59:25 2018 +0530
 
     Initial commit
 
-	To track the remote branch 
+	**To track the remote branch **
+	```
 	 git remote add origin https://github.com/sunilkhuwal/gitlearning.git
-	 
+	```
+
+	 **To push the Content to remote master**
+	 ```
+	 git push -u origin master
+	 ```
+	 **To pull from origin master**
+	 git pull origin master
