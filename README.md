@@ -79,3 +79,32 @@ To https://github.com/sunilkhuwal/gitlearning.git
 
 To add scripts with the extension .txt
 git add '*.txt'
+
+$ git log
+commit 28c36b0c233992d6a0d59550bd8fe62c3ccbf586
+Author: Sunil Kumar <sunil.kumar@metacube.com>
+Date:   Tue Feb 20 12:33:53 2018 +0530
+
+    updating readme file
+
+commit 12dea1e3f502bfb51614f3e488b7d4b678b35e0d
+Author: Sunil Kumar <sunil.kumar@metacube.com>
+Date:   Tue Feb 20 12:31:53 2018 +0530
+
+    updating readme file
+
+commit fe10bd41c844d029d86d12816ca69d80579c83b2
+Author: Sunil Kumar <sunil.kumar@metacube.com>
+Date:   Tue Feb 20 12:07:48 2018 +0530
+
+    Adding new Files and Folder structure
+
+commit d71ebc050ab1fa0bfc2a077ce4d1399bc2989ae7
+Author: sunilkhuwal <sunil.khuwal@gmail.com>
+Date:   Tue Feb 20 11:59:25 2018 +0530
+
+    Initial commit
+
+	To track the remote branch 
+	 git remote add origin https://github.com/sunilkhuwal/gitlearning.git
+	 
